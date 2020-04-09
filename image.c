@@ -229,7 +229,6 @@ image **load_alphabet()
         alphabets[j] = calloc(128, sizeof(image));
         for(i = 32; i < 127; ++i){
             char buff[256];
-			if (left < 0) left = 0; if (right > im.w - 1) right = im.w - 1; if (top < 0) top = 0; if (bot > im.h - 1) bot = im.h - 1;
             sprintf(buff, "data/labels/%d_%d.png", i, j);
             alphabets[j][i] = load_image_color(buff, 0, 0);
         }
