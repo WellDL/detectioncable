@@ -1,5 +1,6 @@
+
 classes = 4
-train = cable/train.txt
-valid = cable/test.txt
-names = cable/cable.names
+train = custom/train.txt
+valid = custom/test.txt
+names = custom/cable.names
 backup = /gdriveyolo/backup/
